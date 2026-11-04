@@ -698,108 +698,23 @@ function App() {
       </section>
 
 
-      {/* =====================================================
-    EDUCATION
-===================================================== */}
-
+      
+{/* EDUCATION SECTION */}
 <section id="education" className="section education-section">
 
   <div className="section-heading">
     <span className="section-number">04</span>
-
     <h2>Education</h2>
-
-    <p>
-      My academic journey and educational background.
-    </p>
+    <p>My academic journey and educational background.</p>
   </div>
-
 
   <div className="education-timeline">
 
-    {/* 10th Class */}
-    <div className="education-item">
-
-      <div className="education-marker">
-        <span>01</span>
-      </div>
-
-      <div className="education-card">
-
-        <div className="education-top">
-          <span className="education-level">
-            10th CLASS
-          </span>
-
-          <span className="education-score">
-            90%
-          </span>
-        </div>
-
-        <h3>
-          Sai Vidhyani Kethan English Medium High School
-        </h3>
-
-        <p className="education-description">
-          Completed secondary school education with a
-          strong academic foundation.
-        </p>
-
-        <div className="education-details">
-          <span>📚 Secondary Education</span>
-          <span>📅 2022</span>
-          <span>🏆 90%</span>
-        </div>
-
-      </div>
-
-    </div>
-
-
-    {/* Intermediate */}
-    <div className="education-item">
-
-      <div className="education-marker">
-        <span>02</span>
-      </div>
-
-      <div className="education-card">
-
-        <div className="education-top">
-          <span className="education-level">
-            INTERMEDIATE
-          </span>
-
-          <span className="education-score">
-            97.4%
-          </span>
-        </div>
-
-        <h3>
-          Sri Krishna Reddy Siddarth Junior College
-        </h3>
-
-        <p className="education-description">
-          Completed intermediate education with strong
-          academic performance and preparation for engineering.
-        </p>
-
-        <div className="education-details">
-          <span>📚 Higher Secondary Education</span>
-          <span>📅 2022 — 2024</span>
-          <span>🏆 97.4%</span>
-        </div>
-
-      </div>
-
-    </div>
-
-
-    {/* B.Tech */}
+    {/* 01 - B.Tech */}
     <div className="education-item">
 
       <div className="education-marker active">
-        <span>03</span>
+        <span>01</span>
       </div>
 
       <div className="education-card current-education">
@@ -835,10 +750,108 @@ function App() {
         </div>
 
       </div>
+    </div>
 
+    {/* 02 - Intermediate */}
+    <div className="education-item">
+
+      <div className="education-marker">
+        <span>02</span>
+      </div>
+
+      <div className="education-card">
+
+        <div className="education-top">
+          <span className="education-level">
+            INTERMEDIATE
+          </span>
+
+          <span className="education-score">
+            97.4%
+          </span>
+        </div>
+
+        <h3>
+          Sri Krishna Reddy Siddarth Junior College
+        </h3>
+
+        <p className="education-description">
+          Completed intermediate education with strong
+          academic performance and preparation for engineering.
+        </p>
+
+        <div className="education-details">
+          <span>📚 Higher Secondary Education</span>
+          <span>📅 2022 — 2024</span>
+          <span>🏆 97.4%</span>
+        </div>
+
+      </div>
+    </div>
+
+    {/* 03 - 10th Class */}
+    <div className="education-item">
+
+      <div className="education-marker">
+        <span>03</span>
+      </div>
+
+      <div className="education-card">
+
+        <div className="education-top">
+          <span className="education-level">
+            10TH CLASS
+          </span>
+
+          <span className="education-score">
+            90%
+          </span>
+        </div>
+
+        <h3>
+          Sai Vidhyani Kethan English Medium High School
+        </h3>
+
+        <p className="education-description">
+          Completed secondary school education with a
+          strong academic foundation.
+        </p>
+
+        <div className="education-details">
+          <span>📚 Secondary Education</span>
+          <span>📅 2022</span>
+          <span>🏆 90%</span>
+        </div>
+
+      </div>
     </div>
 
   </div>
+
+  {/* Achievement */}
+  <div className="education-achievement">
+
+    <div className="achievement-icon">
+      🏆
+    </div>
+
+    <div>
+      <span>ACHIEVEMENT</span>
+
+      <h3>
+        3rd Prize — MITS Project Expo 2026
+      </h3>
+
+      <p>
+        Recognized for the Smart Driver Management System project.
+      </p>
+    </div>
+
+  </div>
+
+
+
+    
 
 
   {/* Achievement */}
@@ -863,8 +876,7 @@ function App() {
     </div>
 
   </div>
-
-</section>
+  </section>
         
 
     {/* =====================================================
