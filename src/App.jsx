@@ -446,14 +446,16 @@ function App() {
 
     </div>
 
-  </div>
+    </div>
+
+</section> {/* END SKILLS SECTION */}
 
 
-      {/* =====================================================
-          PROJECTS SECTION
-      ===================================================== */}
-      <section id="projects" className="section">
-
+  {/* =====================================================
+      PROJECTS SECTION
+  ===================================================== */}
+  <section id="projects" className="section">
+    
         <div className="section-number">
           03
         </div>
@@ -972,6 +974,7 @@ function App() {
 
     </div>
   );
+
 }
 
 export default App;
