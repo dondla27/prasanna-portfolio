@@ -846,37 +846,8 @@ function App() {
         Recognized for the Smart Driver Management System project.
       </p>
     </div>
-
   </div>
-
-
-
-    
-
-
-  {/* Achievement */}
-
-  <div className="education-achievement">
-
-    <div className="achievement-icon">
-      🏆
-    </div>
-
-    <div>
-      <span>ACHIEVEMENT</span>
-
-      <h3>
-        3rd Prize — MITS Project Expo 2026
-      </h3>
-
-      <p>
-        Recognized for the Smart Driver Management System
-        project.
-      </p>
-    </div>
-
-  </div>
-  </section>
+</section>
         
 
     {/* =====================================================
