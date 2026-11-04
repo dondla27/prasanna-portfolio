@@ -20,6 +20,7 @@ function App() {
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#education">Education</a>
+            <a href="#Achievements">Achievements</a>
             <a href="#contact">Contact</a>
           </div>
 
@@ -448,93 +449,6 @@ function App() {
   </div>
 
 
-  
-
-  {/* =====================================================
-      DEVELOPMENT APPROACH
-  ===================================================== */}
-
-  <div className="development-approach">
-
-    <div className="subsection-heading">
-
-      <span>
-        MY DEVELOPMENT APPROACH
-      </span>
-
-      <h3>
-        From learning to building
-      </h3>
-
-    </div>
-
-
-    <div className="approach-flow">
-
-      <div className="approach-step">
-        <span>01</span>
-        <strong>LEARN</strong>
-        <p>Understand</p>
-      </div>
-
-      <div className="approach-arrow">
-        →
-      </div>
-
-      <div className="approach-step">
-        <span>02</span>
-        <strong>BUILD</strong>
-        <p>Create</p>
-      </div>
-
-      <div className="approach-arrow">
-        →
-      </div>
-
-      <div className="approach-step">
-        <span>03</span>
-        <strong>TEST</strong>
-        <p>Improve</p>
-      </div>
-
-      <div className="approach-arrow">
-        →
-      </div>
-
-      <div className="approach-step">
-        <span>04</span>
-        <strong>IMPROVE</strong>
-        <p>Refine</p>
-      </div>
-
-    </div>
-
-  </div>
-
-
-  {/* =====================================================
-      PROJECT TRANSITION
-  ===================================================== */}
-
-  <div className="skills-project-transition">
-
-    <span>
-      READY TO SEE IT IN ACTION?
-    </span>
-
-    <h3>
-      Explore the projects where I apply these technologies.
-    </h3>
-
-    <a href="#projects" className="project-transition-btn">
-      View My Projects
-      <span>↗</span>
-    </a>
-
-  </div>
-
-</section>
-
       {/* =====================================================
           PROJECTS SECTION
       ===================================================== */}
@@ -828,26 +742,90 @@ function App() {
 
   </div>
 
-  {/* Achievement */}
-  <div className="education-achievement">
+</section>
 
-    <div className="achievement-icon">
-      🏆
+{/* =====================================================
+    ACHIEVEMENTS SECTION
+===================================================== */}
+
+<section id="achievements" className="section achievements-section">
+
+  <div className="section-heading">
+    <span className="section-number">05</span>
+
+    <h2>Achievements &amp; Certifications</h2>
+
+    <p>
+      Certifications and accomplishments that reflect
+      my learning journey and practical experience.
+    </p>
+  </div>
+
+  <div className="achievements-grid">
+
+    {/* AWS CERTIFICATION */}
+    <div className="achievement-card">
+
+      <div className="achievement-icon">
+        ☁️
+      </div>
+
+      <span className="achievement-label">
+        AWS CERTIFICATION
+      </span>
+
+      <h3>
+        AWS Certified Cloud Practitioner
+      </h3>
+
+      <p>
+        Earned the AWS Certified Cloud Practitioner
+        certification, demonstrating foundational
+        knowledge of AWS Cloud concepts, services,
+        security, and pricing.
+      </p>
+
+      <div className="achievement-tags">
+        <span>Amazon Web Services</span>
+        <span>Cloud Computing</span>
+        <span>CLF-C02</span>
+      </div>
+
     </div>
 
-    <div>
-      <span>ACHIEVEMENT</span>
+
+    {/* MITS PROJECT EXPO */}
+    <div className="achievement-card">
+
+      <div className="achievement-icon">
+        🏆
+      </div>
+
+      <span className="achievement-label">
+        PROJECT EXPO · 2026
+      </span>
 
       <h3>
         3rd Prize — MITS Project Expo 2026
       </h3>
 
       <p>
-        Recognized for the Smart Driver Management System project.
+        Secured 3rd prize at Madanapalle Institute
+        of Technology &amp; Science for the Smart
+        Driver Management System project.
       </p>
+
+      <div className="achievement-tags">
+        <span>Smart Driver Management System</span>
+        <span>AI &amp; Computer Vision</span>
+      </div>
+
     </div>
+
   </div>
+
 </section>
+
         
 
     {/* =====================================================
@@ -858,7 +836,7 @@ function App() {
 
   <div className="section-heading">
 
-    <span className="section-number">05</span>
+    <span className="section-number">06</span>
 
     <h2>Let's Connect</h2>
 
